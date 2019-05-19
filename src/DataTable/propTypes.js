@@ -79,6 +79,7 @@ export const propTypes = {
   paginationTotalRows: PropTypes.number,
   paginationPerPage: PropTypes.number,
   paginationRowsPerPageOptions: PropTypes.array,
+  paginationText: PropTypes.string,
   onChangePage: PropTypes.func,
   onChangeRowsPerPage: PropTypes.func,
   paginationComponent: PropTypes.oneOfType([
@@ -131,6 +132,7 @@ export const defaultProps = {
   paginationTotalRows: 0,
   paginationPerPage: 10,
   paginationRowsPerPageOptions: [10, 15, 20, 25, 30],
+  paginationText: 'Rows per page:',
   onChangePage: null,
   onChangeRowsPerPage: null,
   paginationComponent: Pagination,

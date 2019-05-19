@@ -216,6 +216,7 @@ class DataTable extends Component {
       noHeader,
       fixedHeader,
       pagination,
+      paginationText,
       selectableRows,
       expandableRows,
       subHeader,
@@ -298,6 +299,7 @@ class DataTable extends Component {
                     currentPage={currentPage}
                     rowsPerPage={rowsPerPage}
                     theme={theme}
+                    paginationText={paginationText}
                   />
                 </TableFooter>
               )}
